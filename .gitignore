@@ -1,0 +1,80 @@
+# Gradle files
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+app/src/main/res/raw
+
+# IntelliJ/Android Studio files
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea/**
+
+# Android Studio 2020.3+ (Bumblebee) .cxx/
+.cxx/
+
+# Keystore files
+*.jks
+*.keystore
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Kotlin build folders
+**/out/
+
+# Crashlytics and Firebase
+crashlytics-build.properties
+fabric.properties
+
+# NDK
+obj/
+
+# Google Services JSON (only if you're managing this securely elsewhere)
+# Remove this if you want to include it!
+google-services.json
+
+# Generated files
+build/
+captures/
+output.json
+navigation.json
+
+# Jetpack Compose compiler artifacts
+compose-compiler/
+
+# Fastlane metadata, optional
+fastlane/report.xml
+fastlane/metadata/android/*/images
+
+# Android Profiling
+*.hprof
+
+# Gradle caches and logs
+.gradle/
+build/
+**/build/
+
+# APKs
+*.apk
+*.ap_
+
+# Signing files
+*.pem
+*.key
+*.p12
+
+# Auto-generated files
+gen/
+
+# Ignore local test results
+test-results/
