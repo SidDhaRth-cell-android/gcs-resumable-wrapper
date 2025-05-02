@@ -26,7 +26,7 @@ maven(url ="https://maven.pkg.github.com/SidDhaRth-cell-android/gcs-resumable-wr
 Then add the dependency in your app-level `build.gradle.kts`:
 ```groovy
 dependencies {
-    implementation("com.flutteroid:gcsresummableuploadwrapper:1.0.0")
+    implementation("com.flutteroid.gcsresummableuploadwrapper:1.0.0")
 }
 ```
 ## **🚀 Usage**
