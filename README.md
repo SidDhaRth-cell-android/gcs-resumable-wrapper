@@ -16,7 +16,7 @@ This library provides a simple and efficient wrapper for performing **resumable 
 
 Add the GitHub Packages Maven repository to your `setting.gradle.kts`:
 ```groovy
-maven(url ="https://maven.pkg.github.com/SidDhaRth-cell-android/gcs-resumable-wrapper") {  
+maven(url ="https://maven.pkg.github.com/sidcasmm/gcs-resumable-wrapper") {  
   credentials {  
 	  username = "YOUR_GITHUB_USER_NAME"  
 	  password = "YOUR_GITHUB_TOKEN"  
